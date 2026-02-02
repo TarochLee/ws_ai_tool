@@ -1,0 +1,3 @@
+[submodule "models/Qwen2-VL-7B-Instruct-4bit"]
+	path = models/Qwen2-VL-7B-Instruct-4bit
+	url = git@hf.co:mlx-community/Qwen2-VL-7B-Instruct-4bit
