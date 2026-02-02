@@ -4,3 +4,10 @@ cache/models/*
 .cache/*
 
 build/
+tmp/
+
+
+*.txt
+*.jpg
+
+models/*
