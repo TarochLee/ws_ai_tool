@@ -15,8 +15,8 @@ import Quartz
 import Vision
 
 
-IMG_PATH = "pic.jpg"
-TEXT_MODEL = "models/GGUF/qwen2.5-1.5b-instruct-q4_k_m.gguf"
+IMG_PATH = "../pic.jpg"
+TEXT_MODEL = "../models/GGUF/qwen2.5-1.5b-instruct-q4_k_m.gguf"
 
 
 # ---------- OCR ----------
