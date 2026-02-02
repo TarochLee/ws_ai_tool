@@ -1,3 +1,6 @@
 cache/models/*
 
 .DS_Store
+.cache/*
+
+build/
