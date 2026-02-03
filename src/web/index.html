@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ws_ai_tool</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <h1>图片总结</h1>
+
+    <div class="card">
+      <div class="row">
+        <input id="file" type="file" accept="image/*" />
+        <button id="btnUpload">上传并开始</button>
+      </div>
+
+      <div class="hint">
+        也可以直接在页面粘贴剪贴板图片（Ctrl/⌘+V）。
+      </div>
+
+      <div class="preview">
+        <img id="imgPreview" alt="preview" />
+      </div>
+
+      <div class="progress">
+        <div class="bar" id="bar"></div>
+      </div>
+      <div class="status" id="statusText">等待上传</div>
+    </div>
+
+    <div class="card">
+      <h2>输出</h2>
+      <pre id="out"></pre>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

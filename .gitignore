@@ -1,3 +1,14 @@
 cache/models/*
 
 .DS_Store
+.cache/*
+
+build/
+b/
+tmp/
+
+
+# *.txt
+*.jpg
+
+models/*
