@@ -7,7 +7,7 @@ build/
 tmp/
 
 
-*.txt
+# *.txt
 *.jpg
 
 models/*
